@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquete com Votos</title>
+  <link rel="stylesheet" href="enquete.css">
+</head>
+<body>
+  <main class="enquete-container">
+    <h1>Qual sua linguagem favorita?</h1>
+    <form id="formEnquete">
+      <label><input type="radio" name="opcao" value="JavaScript"> JavaScript</label>
+      <label><input type="radio" name="opcao" value="Python"> Python</label>
+      <label><input type="radio" name="opcao" value="Java"> Java</label>
+      <button type="submit">Votar</button>
+    </form>
+
+    <div id="resultados" class="resultados">
+      <!-- Resultados aparecem aqui -->
+    </div>
+  </main>
+  <script src="enquete.js"></script>
+</body>
+</html>

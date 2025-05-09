@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+body {
+
+    font-family: Rowdies;
+    background-image: url('ChatGPT\ Image\ 9\ de\ mai.\ de\ 2025\,\ 16_50_51.png');
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  h1 {
+    margin-bottom: 2rem;
+    color: #ffffff;
+  }
+  
+  h2{
+    color: #ffffff;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .card {
+    display: block;
+    background: white;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: #222;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s, background 0.2s;
+  }
+  
+  .card:hover {
+    background: #e0e0ff;
+    transform: scale(1.05);
+  }

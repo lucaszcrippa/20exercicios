@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Rowdies', sans-serif;
+  background-color: #e0f7fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.enquete-container {
+  background-color: #ffffff;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.15);
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 1em;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+button {
+  padding: 0.8em 1.5em;
+  font-size: 1em;
+  background-color: #26a69a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00796b;
+}
+
+.resultados {
+  margin-top: 1em;
+  text-align: left;
+}

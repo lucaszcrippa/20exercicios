@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+body {
+    font-family: Rowdies;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+  }
+  
+  p {
+    font-weight: bold;
+    color: #333;
+  }

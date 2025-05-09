@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Rowdies', sans-serif;
+  background-color: #fefbd8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.idade-container {
+  background: white;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+input, button {
+  padding: 0.8em;
+  margin: 0.5em 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+button {
+  background-color: #fbc02d;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f9a825;
+}
+
+#resultado {
+  margin-top: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
