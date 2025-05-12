@@ -1,40 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
 
+/* cronometro.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Rowdies;
+}
+
 body {
-  font-family: 'Rowdies', sans-serif;
-  background-color: #f8f8f8;
+  background-color: #121212;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
 }
 
-.cronometro-container {
-  background: white;
-  padding: 2em;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  width: 100%;
-  max-width: 400px;
+main {
+  background-color: #1e1e1e;
+  padding: 40px;
+  border-radius: 15px;
   text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #00bcd4;
 }
 
 #tempo {
-  font-size: 2em;
-  margin-bottom: 1em;
+  font-size: 4rem;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
 }
 
-.botoes button {
-  padding: 0.8em;
-  margin: 0.5em;
-  width: 30%;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 1em;
+#controles {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.botoes button:hover {
-  background-color: #f0f0f0;
+#iniciar {
+  background-color: #4caf50;
+  color: white;
+}
+
+#iniciar:hover {
+  background-color: #45a049;
+}
+
+#pausar {
+  background-color: #fbc02d;
+  color: black;
+}
+
+#pausar:hover:enabled {
+  background-color: #f9a825;
+}
+
+#zerar {
+  background-color: #f44336;
+  color: white;
+}
+
+#zerar:hover {
+  background-color: #d32f2f;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
